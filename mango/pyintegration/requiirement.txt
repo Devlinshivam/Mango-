@@ -1,0 +1,6 @@
+Flask
+pymongo
+sentence-transformers
+scikit-learn
+joblib
+gunicorn
