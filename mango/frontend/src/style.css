@@ -1,0 +1,29 @@
+/* styles.css */
+button.custom-dropdown-button {
+  background-color: #4a5568 !important; /* Updated to gray700 */
+  color: #f7fafc !important; /* Lighter text color for better contrast */
+  border: none !important; /* Remove border */
+  outline: none !important; /* Remove focus outline */
+  padding: 8px 16px; /* Add padding to match button appearance */
+  font-size: 16px; /* Set font size */
+  text-align: center; /* Center the text */
+}
+
+button.custom-dropdown-button:hover,
+button.custom-dropdown-button:focus,
+button.custom-dropdown-button:active,
+button.custom-dropdown-button.show,
+button.custom-dropdown-button:focus-visible {
+  background-color: #2d3748 !important; /* Darker gray for hover */
+  color: #edf2f7 !important; /* Lighter text color on hover */
+}
+
+.custom-dropdown-item {
+  color: #2d3748; /* Dropdown item text color */
+}
+
+.custom-dropdown-item:hover,
+.custom-dropdown-item:focus {
+  background-color: #4a5568; /* Dropdown item hover background color */
+  color: #edf2f7; /* Lighter text color */
+}

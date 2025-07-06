@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "langchain": "^0.3.19",
+    "openai": "^3.2.1",
+    "pinecone-client": "^2.0.0",
+    "socket.io": "^4.8.1"
+  }
+}
